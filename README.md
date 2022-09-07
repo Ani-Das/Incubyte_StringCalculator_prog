@@ -73,7 +73,7 @@ class StringCalculator{
 					}
 					
 					else if(isalpha(str[i])){
-						sumcount+=str[i]-'a' + 1;
+						sumcount+=(str[i]-'a') + 1;
 					}
 					
 				}
